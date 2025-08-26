@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Felsefe Bölümü Ders Müfredatı</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  body { 
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.5; 
+    color: #444; 
+    background-color: #f0f2f5;
+  }
+  .container { 
+    max-width: 1400px; 
+    margin: 30px auto; 
+    padding: 20px; 
+  }
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 5px; 
+    font-size: 0.8em; 
+  }
+  th, td { 
+    border: none;
+    border-bottom: 1px solid #f0f2f5;
+    padding: 8px 6px; 
+    text-align: left; 
+  }
+  tr:last-child td {
+      border-bottom: none;
+  }
+  
+  /* YENİ VE DAHA MİNİMALİST TABLO BAŞLIĞI STİLİ */
+  th { 
+    background-color: #f8f9fa; /* Açık gri zemin */
+    color: #555; /* Koyu gri yazı */
+    font-weight: 600;
+    border-bottom: 2px solid #e9ecef; /* Ayırıcı çizgi */
+  }
+  
+  .year-container { 
+    display: flex; 
+    flex-direction: row; 
+    gap: 30px;
+    align-items: stretch; 
+  }
+
+  .semester-column {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    flex-grow: 1;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  }
+
+  h3 { 
+    text-align: center; 
+    color: #2c3e50; 
+    font-size: 2em; 
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  h4 { 
+    text-align: center; 
+    color: #34495e; 
+    font-size: 1.6em; 
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  .card-title { 
+    text-align: left; 
+    display: block; 
+    margin-bottom: 15px; 
+    font-size: 1.3em; 
+    font-weight: 600; 
+    color: #34495e;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f2f5;
+  }
+  tfoot td { 
+    font-weight: bold; 
+    background-color: #f8f9fa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h3>FELSEFE BÖLÜMÜ</h3>
+<h4>LİSANS DERS MÜFREDATI</h4>
+
+  <div class="year-section">
+  <h4>1. SINIF</h4>
+  <div class="year-container">
+    <div class="semester-column">
+        <div class="card">
+            <b class="card-title">I. YARIYIL (GÜZ)</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630160</td><td>FELSEFEYE GİRİŞ</td><td>3</td><td></td><td>3</td><td>6</td></tr>
+                    <tr><td>2630153</td><td>MANTIK I</td><td>4</td><td></td><td>4</td><td>7</td></tr>
+                    <tr><td>2630154</td><td>ANTİK YUNAN FELSEFESİ I</td><td>3</td><td></td><td>3</td><td>6</td></tr>
+                    <tr><td>2630155</td><td>BİLİM TARİHİNE GİRİŞ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630156</td><td>YABANCI DİL I (İNGİLİZCE)</td><td>2</td><td></td><td>2</td><td>2</td></tr>
+                    <tr><td>2630157</td><td>TÜRK DİLİ I</td><td>2</td><td></td><td>2</td><td>2</td></tr>
+                    <tr><td>2630158</td><td>ATATÜRK İLKELERİ VE İNKILAP TARİHİ I</td><td>2</td><td></td><td>2</td><td>2</td></tr>
+                </tbody>
+                <tfoot><tr><td colspan="4">TOPLAM KREDİ:</td><td>19</td><td>30</td></tr></tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="semester-column">
+        <div class="card">
+            <b class="card-title">II. YARIYIL (BAHAR)</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630251</td><td>TEMEL FELSEFE KAVRAMLARI</td><td>3</td><td></td><td>3</td><td>6</td></tr>
+                    <tr><td>2630253</td><td>MANTIK II</td><td>4</td><td></td><td>4</td><td>7</td></tr>
+                    <tr><td>2630254</td><td>ANTİK YUNAN FELSEFESİ II</td><td>3</td><td></td><td>3</td><td>6</td></tr>
+                    <tr><td>2630255</td><td>MODERN BİLİM TARİHİ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630256</td><td>YABANCI DİL II (İNGİLİZCE)</td><td>2</td><td></td><td>2</td><td>2</td></tr>
+                    <tr><td>2630257</td><td>TÜRK DİLİ II</td><td>2</td><td></td><td>2</td><td>2</td></tr>
+                    <tr><td>2630258</td><td>ATATÜRK İLKELERİ VE İNKILAP TARİHİ II</td><td>2</td><td></td><td>2</td><td>2</td></tr>
+                </tbody>
+                <tfoot><tr><td colspan="4">TOPLAM KREDİ:</td><td>19</td><td>30</td></tr></tfoot>
+            </table>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="year-section">
+  <h4>2. SINIF</h4>
+  <div class="year-container">
+    <div class="semester-column">
+        <div class="card">
+            <b class="card-title">III. YARIYIL (GÜZ)</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630358</td><td>SİYASET FELSEFESİ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630352</td><td>BATI ORTA ÇAĞ VE RÖNESANS FELSEFESİ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630353</td><td>EPİSTEMOLOJİ</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630354</td><td>İSLAM FELSEFESİ</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630355</td><td>ETİK</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630360</td><td>SOSYOLOJİYE GİRİŞ</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630361</td><td>PSİKOLOJİYE GİRİŞ</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                </tbody>
+                <tfoot><tr><td colspan="4">TOPLAM KREDİ:</td><td>23</td><td>30</td></tr></tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="semester-column">
+        <div class="card">
+            <b class="card-title">IV. YARIYIL (BAHAR)</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630451</td><td>ELEŞTİREL DÜŞÜNME</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630452</td><td>17. YÜZYIL BATI FELSEFESİ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630453</td><td>BİLİM FELSEFESİ</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630461</td><td>FELSEFE VE SİNEMA</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630455</td><td>UYGULAMALI ETİK</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630462</td><td>SOSYOLOJİ TARİHİ</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630463</td><td>SOSYAL PSİKOLOJİ</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                </tbody>
+                <tfoot><tr><td colspan="4">TOPLAM KREDİ:</td><td>23</td><td>30</td></tr></tfoot>
+            </table>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="year-section">
+  <h4>3. SINIF</h4>
+  <div class="year-container">
+    <div class="semester-column">
+        <div class="card">
+            <b class="card-title">V. YARIYIL (GÜZ)</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630551</td><td>18. YÜZYIL BATI FELSEFESİ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630560</td><td>METAFİZİK</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630597</td><td>TÜRK İSLAM DÜŞÜNCESİ</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td></td><td>FAKÜLTE SEÇMELİ DERS</td><td>2</td><td></td><td>2</td><td>4</td></tr>
+                    <tr><td></td><td>FAKÜLTE SEÇMELİ DERS</td><td>2</td><td></td><td>2</td><td>4</td></tr>
+                </tbody>
+                <tfoot><tr><td colspan="4">TOPLAM KREDİ:</td><td>19</td><td>30</td></tr></tfoot>
+            </table>
+        </div>
+        <div class="card">
+            <b class="card-title">V. YARIYIL SEÇMELİ DERSLER</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630583</td><td>Felsefi Metinler I</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630594</td><td>Dil Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630595</td><td>Felsefi Yöntem</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630571</td><td>Felsefi Metinler III</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630581</td><td>Matematik Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630596</td><td>Sosyal Epistemoloji</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630574</td><td>Çevre Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630575</td><td>Edebiyat Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630576</td><td>Felsefe ve Mistisizm</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630577</td><td>Antik Yunanca I</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630578</td><td>Felsefi Antropoloji</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630582</td><td>Sosyoloji Metinleri I</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630584</td><td>Tarih Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630598</td><td>Felsefe Bilim Tartışmaları</td><td>2</td><td></td><td>2</td><td>4</td></tr>
+                    <tr><td>2630599</td><td>Felsefeye Giriş</td><td>2</td><td></td><td>2</td><td>4</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="semester-column">
+        <div class="card">
+            <b class="card-title">VI. YARIYIL (BAHAR)</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630651</td><td>19. YÜZYIL BATI FELSEFESİ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630652</td><td>ZİHİN FELSEFESİ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630653</td><td>DİN FELSEFESİ</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td></td><td>FAKÜLTE SEÇMELİ DERS</td><td>2</td><td></td><td>2</td><td>4</td></tr>
+                    <tr><td></td><td>FAKÜLTE SEÇMELİ DERS</td><td>2</td><td></td><td>2</td><td>4</td></tr>
+                </tbody>
+                <tfoot><tr><td colspan="4">TOPLAM KREDİ:</td><td>19</td><td>30</td></tr></tfoot>
+            </table>
+        </div>
+        <div class="card">
+            <b class="card-title">VI. YARIYIL SEÇMELİ DERSLER</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630683</td><td>Felsefi Metinler II</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630684</td><td>Çağdaş İslam Düşüncesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630675</td><td>Müzik Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630671</td><td>Felsefi Metinler IV</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630672</td><td>İnsan Hakları Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630685</td><td>Bilim Sosyolojisi</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630674</td><td>Teknoloji Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630686</td><td>Estetik ve Sanat Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630676</td><td>Tasavvuf Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630677</td><td>Antik Yunanca II</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630678</td><td>Rasyonalizm ve Ampirizm</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630679</td><td>Varoluşçuluk</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630681</td><td>Psikoloji Metinleri I</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630687</td><td>Pratik Felsefe</td><td>2</td><td></td><td>2</td><td>4</td></tr>
+                    <tr><td>2630688</td><td>Kısa Felsefe Tarihi</td><td>2</td><td></td><td>2</td><td>4</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="year-section">
+  <h4>4. SINIF</h4>
+  <div class="year-container">
+    <div class="semester-column">
+        <div class="card">
+            <b class="card-title">VII. YARIYIL (GÜZ)</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630751</td><td>ÇAĞDAŞ FELSEFE I</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630752</td><td>METAFELSEFE</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630755</td><td>MEZUNİYET PROJESİ I</td><td>0</td><td>4</td><td>2</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                </tbody>
+                <tfoot><tr><td colspan="4">TOPLAM KREDİ:</td><td>22</td><td>30</td></tr></tfoot>
+            </table>
+        </div>
+        <div class="card">
+            <b class="card-title">VII. YARIYIL SEÇMELİ DERSLER</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630771</td><td>Felsefi Metinler V</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630791</td><td>Devlet ve Toplum Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630792</td><td>Çağdaş Bilim Teorileri</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630772</td><td>Felsefe ve Mitoloji</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630773</td><td>Eğitim Sosyolojisi</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630793</td><td>Fizik Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630794</td><td>Bilim Psikolojisi</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630776</td><td>Benlik Kuramları</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630777</td><td>Latince I</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630778</td><td>Eğitim Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630779</td><td>Kültür Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630780</td><td>Değerler Sosyolojisi</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630781</td><td>Psikoloji Metinleri II</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="semester-column">
+        <div class="card">
+            <b class="card-title">VIII. YARIYIL (BAHAR)</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630893</td><td>ÇAĞDAŞ TÜRK FELSEFESİ</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630853</td><td>HUKUK FELSEFESİ</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630894</td><td>ÇAĞDAŞ FELSEFE II</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630855</td><td>MEZUNİYET PROJESİ II</td><td>0</td><td>4</td><td>2</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td></td><td>SEÇMELİ DERS</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                </tbody>
+                <tfoot><tr><td colspan="4">TOPLAM KREDİ:</td><td>22</td><td>30</td></tr></tfoot>
+            </table>
+        </div>
+        <div class="card">
+            <b class="card-title">VIII. YARIYIL SEÇMELİ DERSLER</b>
+            <table>
+                <thead><tr><th>Kodu</th><th>Dersin Adı</th><th>T</th><th>U</th><th>K</th><th>AKTS</th></tr></thead>
+                <tbody>
+                    <tr><td>2630891</td><td>Felsefi Danışmanlık ve Rehberlik</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630871</td><td>Felsefi Metinler VI</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630892</td><td>Felsefe-Bilim-Din Tartışmaları</td><td>3</td><td></td><td>3</td><td>5</td></tr>
+                    <tr><td>2630872</td><td>Medeniyet Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630873</td><td>Eğitim Psikolojisi</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630874</td><td>Yapay Zekâ Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630882</td><td>Çağdaş Siyaset Kuramları</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630876</td><td>Modernizm ve Postmodernizm</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630877</td><td>Latince II</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630878</td><td>Biyoloji Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630879</td><td>Etnisite ve Cinsiyet Felsefesi</td><td>3</td><td></td><td>3</td><td>4</td></tr>
+                    <tr><td>2630880</td><td>Değişim Sosyolojisi</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                    <tr><td>2630881</td><td>Sosyoloji Metinleri II</td><td>4</td><td></td><td>4</td><td>4</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
